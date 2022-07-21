@@ -762,6 +762,6 @@ syntax :
 	initlization 
 	while ( Condition )
 	{
-		statement( uppend )
+		statement updation 
 	}
 	
