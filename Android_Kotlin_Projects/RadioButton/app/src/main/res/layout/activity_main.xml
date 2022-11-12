@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radiogp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PARIN"
+            android:textSize="20dp"
+            android:id="@+id/parin"
+            android:backgroundTint="@color/teal_700"/>
+
+        <RadioButton
+            android:id="@+id/priti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="PRITI"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YAANA"
+            android:textSize="20dp"
+            android:id="@+id/yaana"
+            android:backgroundTint="@color/teal_700"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JOYYA"
+            android:textSize="20dp"
+            android:id="@+id/joyya"
+            android:backgroundTint="@color/teal_700"/>
+
+
+    </RadioGroup>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Push to View Subject Massage"
+    android:id="@+id/push"
+    />
+
+</LinearLayout>
